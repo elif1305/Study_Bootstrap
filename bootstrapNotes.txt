@@ -1,0 +1,6 @@
+=========================
+  Bootstrap Notes
+========================
+
+=> sayfayi ortalamak icin; class a container ver. (margin ; auto gibi ozellik)
+
