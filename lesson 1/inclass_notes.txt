@@ -22,9 +22,11 @@ https://getbootstrap.com/
 
 
 -HTML inin icine : (ekledigin bu dosyalar, indirip assetsin icine attigin js ve css in icindeki bootstrap.css ve bootstrap.js dosyalari.
- <link rel="stylesheet" href="./assets/bootstrap-5.0.2-dist/css/bootstrap.css">
- <script> </script> ile de js i ekle
+ head : <link rel="stylesheet" href="./assets/bootstrap-5.0.2-dist/css/bootstrap.css">
+ body : <script src="./assets/bootstrap-5.0.2-dist/js/bootstrap.js"> </script> ile de js i ekle
 
+(eklenilen bu bootstrap.css ve bootstrap.js dosyalari, bootstrapin kendi sitesinden indirip, assetsin icine attigimiz 2 dosya icinde bulunan dosyalardir.
+8
 -ve kullanmaya basla.
 
 1. YONTEM
