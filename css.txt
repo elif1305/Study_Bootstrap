@@ -1,0 +1,13 @@
+static : default
+
+relative : static ile ayni farki posititon verebliyorsun. static olarak bulundugu yere gore konumu degisir
+
+absolute : goruntu olarak ekranda ignore edilir, html de silindiginde ayni etki olur. konum verilebilir.parenta gore konum alir. fakaat parentta static 
+disinda bir positon verilmesi gerekir.
+ or: div icindeki bir header. div in positon i static disinda bir konum ise header a verilen konumlari div e gore alir. fakat div de bir position verilmediyse 
+veya pozisyonu static ise body ye gore sekil alir.
+absolute genelde relative ile kullanlir. yani absolute in parentine genelde relative verilir.
+
+fixed : tum sayfaya gore konumu fixler.sayfa kaydirildiginda degismez. parent a position verme gibi br gereklilik yoktur.
+
+sticky : relativee gibi. farki : sayfa kaydirildiginda yapisir. relative + sticky gibi.
